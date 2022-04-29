@@ -7,8 +7,8 @@ export default function Layout({children}) {
     const github = "https://github.com/litmus-zhang"
     const twitter = "https://twitter.com/litmus13lukman";
   return (
-    <div className='text-left flex flex-col justify-between bg-bg-dark items-left justify-between w-full   m-auto'>
-<header className='flex justify-between items-center w-full m-4 px-8'>
+    <div className='text-left flex flex-col justify-between bg-bg-dark items-left w-full   m-auto'>
+<header className='flex justify-between items-center w-full pl-12 pr-12 pt-6'>
     <div className='font-bold text-gray-5'>
         Litmus.eth
     </div>

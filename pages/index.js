@@ -14,6 +14,7 @@ and treat them with <span className='text-primary'> design and  code. </span>
       <div>
         <Section title="My Work" subTitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "/>
         <ProjectCard/>
+        <Section title="Clients" subTitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "/>
      </div>
     </div>
   )
