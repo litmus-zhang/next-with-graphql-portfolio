@@ -31,7 +31,7 @@ export default function ProjectCard() {
   return (
       <div className="flex flex-wrap gap-4">
           {projects.map(project => (
-              <div className=" border-2 border-gray-2 flex flex-wrap w-2/5 h-3/4 content-center items-center  text-white cursor-pointer hover:border-gray-4" key={project.id}>
+              <div className=" border-2 border-gray-2 flex flex-col w-2/5 h-3/4 content-center items-center  text-white cursor-pointer hover:border-gray-4" key={project.id}>
                   <div className="w-auto h-1/4 object-contain">
                       <img src={project.image} alt={project.title} />
                   </div>
